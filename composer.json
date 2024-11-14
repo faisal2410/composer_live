@@ -1,0 +1,23 @@
+{
+    "name": "abdur/composer_live",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Bangladesh\\": "app/",
+            "Bangladesh\\Dhaka\\":"app/book"
+        },
+        "files": [
+            "helper/helpers.php"
+        ],
+        "classmap": [
+            "includes/CustomClass.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "RaihanaFerdousi",
+            "email": "raihanaferdousi110@gmail.com"
+        }
+    ],
+    "require": {}
+}
